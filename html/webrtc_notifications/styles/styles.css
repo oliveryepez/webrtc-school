@@ -1,0 +1,11 @@
+.waiting{
+	display: none;
+	text-align: center;
+}
+.log{
+	width: 100%;
+	height: 300px !important;
+}
+.input-text{
+	width: 100%;
+}

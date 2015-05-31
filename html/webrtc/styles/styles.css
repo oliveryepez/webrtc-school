@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Sintony Regular";
+    src: url(fonts/sintony/Sintony-Regular.otf);
+}
+@font-face {
+    font-family: "Sintony Bold";
+    src: url(fonts/sintony/Sintony-Bold.otf);
+}
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(fonts/raleway/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(fonts/raleway/Raleway-SemiBold.ttf);
+}
+.chat-container{
+  z-index: 4;
+  width: auto;
+  position: absolute;
+  background: #3a404e;
+  font-family: "Raleway Regular";
+}
+.chat-header{
+	height: 30px;
+	background: #FFF;
+	padding: 5px 10px;
+	text-align: center;
+}
+.chat-header h3{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 400;
+	width: auto;
+}
+.chat-container .chat-body{
+	color: #666;
+	clear: both;
+	overflow: hidden;
+	padding: 0.42em 0 0 0;
+	font-size: 80%;
+	position: relative;
+	width: 240px;
+	height: 300px;
+	background: #5e6472;
+}
+.chat-container .chat-message{
+	height: auto;
+	overflow-y: hidden;
+	font-size: 14px;
+	background: #2b2d3e;
+	padding: 5px 15px;
+}
+.chat-message input[type="text"]{
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	 border-radius: 5px;
+	 border: none;
+	 height: 30px;
+	 padding: 10px;
+}

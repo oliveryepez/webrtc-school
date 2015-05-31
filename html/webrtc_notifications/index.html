@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div class="container">
+		<h4>Enter your chat name and name of the user you want to connect</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label>You</label>
+					<input type="text" class="form-control" id="myName" placeholder="Enter your name...">
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="form-group">
+					<label>Contact</label>
+					<input type="text" class="form-control" id="userName" placeholder="Enter username to contact...">
+				</div>
+			</div>
+			<div class="col-md-1" style="padding-top:24px;">
+				<button type="button" id="saveName" class="btn btn-default">Enter</button>
+			</div>
+		</div>
+		<div class="waiting">Waiting for connection...</div>
+		<div class="form-group onready">
+			<textarea class="form-control log" id="log"></textarea>
+		</div>
+		<div class="onready">
+			<div class="row">
+				<div class="col-md-10">
+					<input class="form-control input-text" type="text" id="input-text">
+				</div>
+				<div class="col-md-2">
+					<button id="send" class="btn btn-primary">Send</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="styles/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/peer.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</html>
